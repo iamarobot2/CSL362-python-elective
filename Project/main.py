@@ -77,7 +77,7 @@ while flag:
                 studentName = studentInfo['name']
 
                 if counter==0:
-                    cvzone.putTextRect(imgBackground,"Loading",(274,400))
+                    cvzone.putTextRect(imgBackground,"Loading",(274,350))
                     cv2.imshow("Face Reco. based attendance system",imgBackground)
                     cv2.waitKey(1)
                     counter=1
